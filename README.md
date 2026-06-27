@@ -111,8 +111,8 @@ ROTEADOR DOMÉSTICO
 |---|---|---|
 | [Fase 1](docs/fase1/README.md) | Proxmox VE + pfSense + Segmentação de Rede | ✅ Concluída |
 | [Fase 2](docs/fase2/README.md) | Ambiente Corporativo — AD, Windows 10, Ubuntu e Metasploitable| ✅ Concluída |
-| [Fase 3](docs/fase3/README.md) | Wazuh Manager + Agentes + Suricata | 🔄 Em andamento |
-| [Fase 4](docs/fase4/README.md) | Automação (n8n) + File Server + VPN | ⏳ Pendente |
+| [Fase 3](docs/fase3/README.md) | Wazuh Manager + Agentes + Suricata | ✅ Concluída |
+| [Fase 4](docs/fase4/README.md) | Automação (n8n) + File Server + VPN | ✅ Concluída |
 | [Fase 5](docs/fase5/README.md) | DVR Hikvision + Docker + Cenários Avançados | ⏳ Pendente |
 
 ---
