@@ -4,7 +4,7 @@
 
 ---
 
-![Arquitetura do Laboratório](architecture/soc-homelab-architecture.png)
+![Arquitetura do Laboratório](architecture/01-arquitetura-completa.png)
 
 ## 📌 Sobre o Projeto
 
@@ -53,7 +53,7 @@ ROTEADOR DOMÉSTICO
    Switch MGMT            Switch HOSTS
         │                       |
    PC Principal         ┌───────────────┐
-  (Administrator)       │ DVR Hikvision │ 192.168.20.x
+  (Administrator)       │ DVR Hikvision │ 192.168.20.50
                         │ Kali Linux    │ 192.168.20.x
                         └───────────────┘
                                 |
@@ -83,7 +83,7 @@ ROTEADOR DOMÉSTICO
 | n8n | HOSTS | `192.168.20.30` | Automação |
 | File Server | HOSTS | `192.168.20.40` | Samba / 300GB |
 | Metasploitable 2 | HOSTS | DHCP | Alvo pentest |
-| DVR Hikvision | HOSTS | DHCP | Alvo CFTV |
+| DVR Hikvision | HOSTS | `192.168.20.50` | Alvo CFTV |
 | Kali Linux | HOSTS | DHCP | Atacante |
 
 ---
@@ -113,7 +113,7 @@ ROTEADOR DOMÉSTICO
 | [Fase 2](docs/fase2/README.md) | Ambiente Corporativo — AD, Windows 10, Ubuntu e Metasploitable| ✅ Concluída |
 | [Fase 3](docs/fase3/README.md) | Wazuh Manager + Agentes + Suricata | ✅ Concluída |
 | [Fase 4](docs/fase4/README.md) | Automação (n8n) + File Server + VPN | ✅ Concluída |
-| [Fase 5](docs/fase5/README.md) | DVR Hikvision + Docker + Cenários Avançados | ⏳ Pendente |
+| [Fase 5](docs/fase5/README.md) | DVR Hikvision | ✅ Concluída |
 
 ---
 

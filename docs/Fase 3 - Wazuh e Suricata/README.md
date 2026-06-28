@@ -18,7 +18,6 @@
 8. [Suricata no pfSense](#8-suricata-no-pfsense)
 9. [Validação final](#9-validação-final)
 10. [Problemas encontrados e soluções](#10-problemas-encontrados-e-soluções)
-11. [Checklist de prints](#11-checklist-de-prints)
 
 ---
 

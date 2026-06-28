@@ -22,7 +22,6 @@
 11. [VM METASPLOITABLE2](#11-vm-metasploitable2)
 12. [Testes de validação](#12-testes-de-validação)
 13. [Problemas encontrados e soluções](#13-problemas-encontrados-e-soluções)
-14. [Checklist de prints](#14-checklist-de-prints)
 
 ---
 
